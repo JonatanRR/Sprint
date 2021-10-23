@@ -1,0 +1,94 @@
+.contenedor1 {
+    background-color: black;    
+    height: 160px;
+    border: 15px solid black;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.menu {
+    background-color: #27394e;
+    border: 15px solid #27394e;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.menu-small {
+    background-color: #ea584b;
+    border: 15px solid #ea584b;
+    flex-basis: 20%;
+    
+}
+.menu-largo {
+    background-color: #ea584b;
+    border: 15px solid #ea584b;
+    flex-basis: 80%;
+    margin: 0 10px 0 10px; 
+}
+.cabecera {
+    background-color: #f0763a;
+    border: 15px solid #f0763a;
+}
+.imagen {
+    background-color: #ffcc5e;
+    border: 15px solid #ffcc5e;
+}
+.contenedor2 {
+    background-color: black;    
+    height: 250px;
+    border: 15px solid black;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-between;
+}
+.blog {
+    background-color: #44465e;
+    border: 15px solid #44465e;
+    flex-basis: 65%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.entradas {
+    background-color: #1664a4;
+    border: 15px solid #1664a4;
+    flex-basis: 40%;
+    margin-bottom: 10px;
+    
+}
+.entrada-larga {
+    background-color: #6399bb;
+    border: 15px solid #6399bb;
+    flex-basis: 100%;
+    
+}
+.aside {
+    background-color: #f94c47;
+    border: 15px solid #f94c47;
+    flex-basis: 28%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.lateral {
+    background-color: #ffe380;
+    border: 15px solid #ffe380;
+    margin-bottom: 10px;    
+}
+.contenedor3 {
+    background-color: black;    
+    height: 40px;
+    border: 15px solid black;
+    display: flex;
+    flex-direction: row;
+}
+.footer {
+    background-color: #e4a434;
+    flex-basis: 100%;    
+}
