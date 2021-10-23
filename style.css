@@ -1,6 +1,6 @@
 .contenedor1 {
     background-color: black;    
-    height: 160px;
+    /*height: 160px;*/
     border: 15px solid black;
     margin-bottom: 10px;
     display: flex;
@@ -10,6 +10,7 @@
 .menu {
     background-color: #27394e;
     border: 15px solid #27394e;
+    margin-bottom: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -25,7 +26,7 @@
     background-color: #ea584b;
     border: 15px solid #ea584b;
     flex-basis: 80%;
-    margin: 0 10px 0 10px; 
+    margin: 0 10px 0 10px;
 }
 .cabecera {
     background-color: #f0763a;
@@ -112,9 +113,42 @@
 }
 
 @media  (max-width: 700px) {
-    .blog {
-        background-color: crimson;
-        
+    .menu {
+        flex-wrap: wrap;
     }
-
+    .menu-small {
+        flex-basis: 100%;        
+    }
+    .menu-largo {
+        flex-basis: 100%;
+        margin: 10px 0 10px 0;
+    }
+    .contenedor2 {
+        background-color: #ffd939;
+        border-color: #ffd939;        
+    }
+    .blog {
+        background-color: #004763;
+        border-color: #004763;
+    }
+    .entradas {
+        background-color: #558991;
+        border-color: #558991;
+    }
+    .entrada-larga {
+        background-color: #97d4c5;
+        border-color: #97d4c5;
+    }
+    .aside {
+        background-color: #ff784c;
+        border-color: #ff784c;
+    }
+    .lateral {
+        background-color: #ffab64;
+        border-color: #ffab64;
+    }
+    .footer {
+        background-color: #ffbf60;
+        border-color: #ffbf60;
+    }
 }
