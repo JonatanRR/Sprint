@@ -37,7 +37,7 @@
 }
 .contenedor2 {
     background-color: black;    
-    height: 250px;
+    /*height: 250px;*/
     border: 15px solid black;
     margin-bottom: 10px;
     display: flex;
@@ -91,4 +91,30 @@
 .footer {
     background-color: #e4a434;
     flex-basis: 100%;    
+}
+
+@media  (max-width: 900px) {
+    .contenedor2 {
+        background-color: #fff734;
+        border-color: #fff734;
+        align-items: space-around;
+    }
+    .blog {
+        flex-basis: 100%;
+        margin-bottom: 10px;
+    }
+    .entradas {
+        flex-basis: 100%;
+    }
+    .aside {
+        flex-basis: 100%;
+    }
+}
+
+@media  (max-width: 700px) {
+    .blog {
+        background-color: crimson;
+        
+    }
+
 }
